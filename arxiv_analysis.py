@@ -116,7 +116,7 @@ class ArxivAnalyzer:
         self.articles = []
         self.translator = OpenAI(
             base_url="https://api.openai-proxy.org/v1",
-            api_key='sk-lhmsRn3GdhRC77VaDK6XgS29aMn5fsxbXy6OnYA6JUGw2fii',
+            api_key='',
             timeout=30
         )
         self.eval_client = Client("ssocean/Newborn_Article_Impact_Predict")
